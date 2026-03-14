@@ -4,6 +4,6 @@ fastapi
 uvicorn[standard]
 pydantic
 httpx[socks]
-git+https://github.com/jvkabum/hcaptcha-challenger.git@main#egg=hcaptcha-challenger
+git+https://github.com/quangloc24/hcaptcha-blablabla.git@main#egg=hcaptcha-challenger
 camoufox
 browserforge
