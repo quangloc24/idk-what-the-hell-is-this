@@ -1,0 +1,21 @@
+# Port the FastAPI server listens on
+PORT=7860
+
+# Gemini API Key for hcaptcha-challenger (get from https://aistudio.google.com/apikey)
+GEMINI_API_KEY=
+
+# Optional: solve timeout in seconds (default: 120)
+SOLVE_TIMEOUT=500
+
+# Optional: run Chrome headless (true/false, default: true)
+HEADLESS=False
+
+# Optional: proxy for the solver (applied to all /solve requests by default)
+# Formats: http://user:pass@host:port  or  user:pass@host:port  or  host:port
+#PROXY=socks5://127.0.0.1:1080
+
+# Optional: Path to a WireGuard .conf file (e.g., vpn/secret.conf)
+# If provided, it will automatically spawn a background Wireproxy tunnel
+# and route all hCaptcha traffic through your VPN, ignoring the PROXY above.
+# VPN_CONF=vpn/config.conf
+#VPN_CONF=vpn/config.conf
